@@ -32,8 +32,8 @@ except: # Python 3
 
 import pyaudio
 
-from respeaker.pixel_ring import pixel_ring
-from respeaker.vad import vad
+from pixel_ring import pixel_ring
+from vad import vad
 
 
 logger = logger = logging.getLogger('mic')

@@ -15,8 +15,8 @@
  limitations under the License.
 """
 
-import respeaker.usb_hid
-from respeaker.spi import spi
+import usb_hid
+from spi import spi
 
 
 class PixelRing:
@@ -26,7 +26,7 @@ class PixelRing:
     speaking_mode = 4
 
     def __init__(self):
-        self.hid = respeaker.usb_hid.get()
+        self.hid = usb_hid.get()
 
     def off(self):
         self.set_color(rgb=0)

@@ -16,7 +16,7 @@ import logging
 import time
 from threading import Thread, Event
 
-from respeaker import Microphone
+from .respeaker import Microphone
 
 
 def task(quit_event):

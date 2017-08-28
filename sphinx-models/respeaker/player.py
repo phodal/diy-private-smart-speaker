@@ -30,9 +30,9 @@ except: # Python 3
 
 import pyaudio
 
-from respeaker.pixel_ring import pixel_ring
-from respeaker.spectrum_analyzer import SpectrumAnalyzer
-from respeaker.spi import spi
+from pixel_ring import pixel_ring
+from spectrum_analyzer import SpectrumAnalyzer
+from spi import spi
 
 CHUNK_SIZE = 1024
 BAND_NUMBER = 16

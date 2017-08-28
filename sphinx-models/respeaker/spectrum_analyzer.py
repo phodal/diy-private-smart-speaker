@@ -17,7 +17,7 @@
 
 import array
 import math
-from respeaker.fft import FFT
+from fft import FFT
 
 
 class SpectrumAnalyzer:
