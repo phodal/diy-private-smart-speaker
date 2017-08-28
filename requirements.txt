@@ -1,1 +1,5 @@
 jieba
+pocketsphinx
+pyaudio
+webrtcvad
+requests
