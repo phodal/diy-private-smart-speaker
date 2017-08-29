@@ -11,6 +11,21 @@ Sphinx 生成
  2. 点击 COMPILE KNOWLEDGE BASE 进行转换
  3. 打开 [http://www.speech.cs.cmu.edu/tools/product/1503889661_19829/](http://www.speech.cs.cmu.edu/tools/product/1503889661_19829/) 下载 tgz 文件
 
+
+````
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+INFO:mic:Use ReSpeaker MicArray UAC2.0: USB Audio (hw:2,0)
+
+INFO:mic:Start detecting
+INFO:mic:Detected 空调
+INFO:mic:Detected 空调
+INFO:mic:Detected 度
+INFO:mic:Detected 今天
+INFO:mic:Detected 今天
+INFO:mic:Detected 空调
+```
+
 下载的 txt 需要生成模型
 
 执行:
