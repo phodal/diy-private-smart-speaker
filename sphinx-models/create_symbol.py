@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# -*- coding: <encoding name> -*-
+# -*- coding: utf-8 -*-
 
 new_dict = open('new.dic', 'w',  encoding='UTF-8')
 origin_dicts = open('TAR0287/0287.dic', encoding='UTF-8')
